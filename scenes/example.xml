@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <node name="[name]">
+    <file path="[filepath]"> </file>
+    <transform translate="x y z" rotate="x y z" scale="x y z" spin="x y z"></transform>
+    <draw cull_face_mode="[option]" polygon_mode="[option]"></draw>
+    <no_light id="light_1 light_2 ... light_n"></no_light>
+  </node>
+
+  <light name="[name]" position="x y z" diffuse="x y z" specular="x y z" spin="x y z"></light>
+
+</scene>
+
+
+
+

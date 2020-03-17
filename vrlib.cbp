@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vrlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMakeModules\;CMake Files\src\;CMake Files\examples\;CMake Files\examples\framebuffer_example\;CMake Files\examples\multitexture_example\;CMake Files\examples\objViewer\;CMake Files\examples\render_to_depth_example\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vrlib">
+				<Option output="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/libvrlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_FREETYPE"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/include"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/installed/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/freetype2/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/Makefile&quot;  VERBOSE=1 vrlib"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vrlib/fast">
+				<Option output="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/libvrlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_FREETYPE"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/include"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/installed/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/freetype2/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/Makefile&quot;  VERBOSE=1 vrlib/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="framebuffer_example">
+				<Option output="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/framebuffer_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_FREETYPE"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/include"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/installed/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/freetype2/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/Makefile&quot;  VERBOSE=1 framebuffer_example"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="framebuffer_example/fast">
+				<Option output="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/framebuffer_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_FREETYPE"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/include"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/installed/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/freetype2/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/Makefile&quot;  VERBOSE=1 framebuffer_example/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multitexture_example">
+				<Option output="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/multitexture_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_FREETYPE"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/include"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/installed/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/freetype2/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/Makefile&quot;  VERBOSE=1 multitexture_example"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multitexture_example/fast">
+				<Option output="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/multitexture_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_FREETYPE"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/include"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/installed/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/freetype2/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/Makefile&quot;  VERBOSE=1 multitexture_example/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="objViewer">
+				<Option output="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/objViewer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_FREETYPE"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/include"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/installed/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/freetype2/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Makefile&quot;  VERBOSE=1 objViewer"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="objViewer/fast">
+				<Option output="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/objViewer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_FREETYPE"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/include"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/installed/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/freetype2/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Makefile&quot;  VERBOSE=1 objViewer/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="render_to_depth_example">
+				<Option output="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/render_to_depth_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_FREETYPE"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/include"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/installed/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/freetype2/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/Makefile&quot;  VERBOSE=1 render_to_depth_example"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="render_to_depth_example/fast">
+				<Option output="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/render_to_depth_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_FREETYPE"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/include"/>
+					<Add directory="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/installed/include"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/freetype2/freetype2"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/Makefile&quot;  VERBOSE=1 render_to_depth_example/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -f &quot;/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/example_fbo.cpp">
+			<Option target="framebuffer_example"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/multitexture_example.cpp">
+			<Option target="multitexture_example"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/BoundingBox.h">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Camera.cpp">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Camera.h">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Light.cpp">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Light.h">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Loader.cpp">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Loader.h">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Material.cpp">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Material.h">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Mesh.cpp">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Mesh.h">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Node.cpp">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Node.h">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Scene.cpp">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/Scene.h">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/objViewer.cpp">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/shader_utils.cpp">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/shader_utils.h">
+			<Option target="objViewer"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/render_to_depth.cpp">
+			<Option target="render_to_depth_example"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/DrawText.cpp">
+			<Option target="vrlib"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/FileSystem.cpp">
+			<Option target="vrlib"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/FrameBufferObject.cpp">
+			<Option target="vrlib"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/RenderBuffer.cpp">
+			<Option target="vrlib"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/Timer.cpp">
+			<Option target="vrlib"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/glErrorUtil.cpp">
+			<Option target="vrlib"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/glUtils.cpp">
+			<Option target="vrlib"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/shaderUtils.cpp">
+			<Option target="vrlib"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/CMakeModules/FindAssimp.cmake">
+			<Option virtualFolder="CMake Files\CMakeModules\"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/CMakeModules/FindGLM.cmake">
+			<Option virtualFolder="CMake Files\CMakeModules\"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/CMakeModules/FindSOIL.cmake">
+			<Option virtualFolder="CMake Files\CMakeModules\"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/framebuffer_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\framebuffer_example\"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/multitexture_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\multitexture_example\"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/objViewer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\objViewer\"/>
+		</Unit>
+		<Unit filename="/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/examples/render_to_depth_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\render_to_depth_example\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

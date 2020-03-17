@@ -1,0 +1,10 @@
+prefix=C:/projects/agx_dependencies2/tmp/png
+exec_prefix=C:/projects/agx_dependencies2/tmp/png
+libdir=C:/projects/agx_dependencies2/tmp/png/lib
+includedir=C:/projects/agx_dependencies2/tmp/png/include/libpng12
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.2.39
+Libs: -LC:/projects/agx_dependencies2/tmp/png/lib -lpng12
+Cflags: -IC:/projects/agx_dependencies2/tmp/png/include

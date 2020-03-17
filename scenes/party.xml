@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <node name="monkey">
+    <file path="models/monkey.obj"> </file>
+    <transform translate="0 2 0" rotate="0 0 0" scale="0.4 3 0.4" spin="-1 0 0"></transform>
+    <draw cull_face_mode="front" polygon_mode="wireframe"></draw>
+  </node>
+
+  <node name="monkey">
+    <file path="models/monkey.obj"> </file>
+    <transform translate="2 1 0" rotate="0 0 0" spin="1 0 -3"></transform>
+  </node>
+
+  <node name="sphere">
+    <file path="models/sphere.obj"> </file>
+    <transform spin="1 0 0" translate="-1 0.5 1"></transform>
+    <draw texture_path="textures/box.bmp"></draw>
+  </node>
+
+  <node name="monkey">
+    <file path="models/5426_C3PO_Robot_Star_Wars.obj"> </file>
+    <transform translate="1 1 1" rotate="0 0 0" scale="0.001 0.0005 0.001" spin="-10 2 1"></transform>
+  </node>
+
+  <node name="C3PO_1">
+    <file path="models/5426_C3PO_Robot_Star_Wars.obj"> </file>
+    <transform translate="-2 1 0" rotate="0 0 0" scale="0.001 0.001 0.001"></transform>
+    <no_light id="1 2"></no_light>
+  </node>
+
+  <node name="C3PO_2">
+    <file path="models/5426_C3PO_Robot_Star_Wars.obj"> </file>
+    <transform translate="-1.5 1 0" rotate="0 0 0" scale="0.001 0.001 0.001"></transform>
+    <no_light id="0 2"></no_light>
+  </node>
+
+  <node name="C3PO_3">
+    <file path="models/5426_C3PO_Robot_Star_Wars.obj"> </file>
+    <transform translate="-1 1 0" rotate="0 0 0" scale="0.001 0.001 0.001"></transform>
+    <no_light id="0 1"></no_light>
+  </node>
+
+  <light name="light_1" position="-2 2.5 0.5" diffuse="0.5 0 0" specular="1 0 0"></light>
+
+  <light name="light_2" position="-2 0 -2" diffuse="0 1 0" specular="0 1 0" spin="0 8 0"></light>
+
+  <light name="light_3" position="-1 2.5 0.5" diffuse="0 0 1" specular="0 0 1"></light>
+  
+  <light name="light_4" position="1 0 2" diffuse="0.5 0.5 0.5" specular="1 1 1" spin="0 0 1"></light>
+
+</scene>
