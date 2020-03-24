@@ -1,7 +1,0 @@
-prefix=/Home/staff/busterw/Documents/Kurser/graphics/advanced/5DV180/installed
-includedir=${prefix}/include
-
-Name: GLM
-Description: OpenGL Mathematics
-Version: 0.9.8
-Cflags: -I${includedir}
