@@ -1,5 +1,4 @@
-#Custom
-installed
+# Custom files at bottom.
 
 ##### Windows
 # Windows thumbnail cache files
@@ -1021,3 +1020,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+# Custom files
+!vswhere.exe
+installed
+!models/*.obj
