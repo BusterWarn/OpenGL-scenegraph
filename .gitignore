@@ -1026,3 +1026,5 @@ dkms.conf
 !vswhere.exe
 installed
 !models/*.obj
+examples
+scenegraph/scenegraph

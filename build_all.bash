@@ -7,7 +7,7 @@ set -e
 
 mkdir -p  ${CURR_PATH}/build
 mkdir -p  ${CURR_PATH}/installed
-mkdir -p  ${CURR_PATH}/installed/include/rapidxmlb
+mkdir -p  ${CURR_PATH}/installed/include/rapidxml
 cp -f ${CURR_PATH}/dependencies/rapidxml-1.13/*.hpp ${CURR_PATH}/installed/include/rapidxml
 
 

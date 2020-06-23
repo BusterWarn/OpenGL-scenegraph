@@ -120,4 +120,4 @@ ENDIF()
 # Go through subdirectories
 ADD_SUBDIRECTORY(src)
 ADD_SUBDIRECTORY(scenegraph)
-
+ADD_SUBDIRECTORY(examples)
